@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+/* CONFIGURAÇÃO DE LINKS GERAL */
+a {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: gray;
+}
+
+
+/* CONFIGURAÇÃO DO HEADER */
+header {
+    width: 100%;
+    height: 72px;
+    background-color: #090909;
+    padding-right: 10px;    
+}
+
+header ul {
+    text-align: right;
+   
+}
+
+header ul li {
+    display: inline;
+    margin-left: 20px;
+    padding: 2px;
+    
+}
+
+
+/** CARROSEL ***/
+#carouselExampleControls img {
+  width: 100%;
+  height: 480px;
+}
+
+
+/* CONFIGURAÇÃO DO FOOTER */
+footer {
+    width: 100%;
+    height: max-content;
+    background-color: #090909;
+
+}
+
+footer p {
+    color: #2CCCD3;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer ul li {
+    padding-bottom: 2px;
+}
+
+
