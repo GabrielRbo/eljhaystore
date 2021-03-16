@@ -94,8 +94,8 @@ header ul li {
     height: 240px;
 
     position: relative;
-    left: 420px;
-}
+    left: 438px !important;
+}   
 
 /** CONFIGURAÇÃO DE FLECHA PARA SUBIR AO TOPO **/ 
 #voltarTopo {
@@ -235,8 +235,6 @@ main {
   border: 1px solid red;
   
 }
-
-
 
 @media only screen and (max-width: 1600px) {
     #voltarTopo {
