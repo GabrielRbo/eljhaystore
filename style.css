@@ -4,12 +4,12 @@
     vertical-align: baseline;
     list-style: none;
     border: 0;
+    font-family: 'Merriweather', serif;
 }
 
 /* CONFIGURAÇÃO DE LINKS GERAL */
 a {
     color: #ffffff;
-    font-family: 'Merriweather', serif;
     font-weight: bold;
     text-decoration: none; 
 }
@@ -17,6 +17,7 @@ a {
 a:hover {
     color: gray;
 }
+
 
 
 /* CONFIGURAÇÃO DO HEADER */
@@ -47,74 +48,6 @@ header ul li {
     padding: 2px;
     
 }
-
-/*** CONFIGURAÇÕES DO MAIN  - HOME (INDEX.HTML) ***/
-
-/** Caroseul ***/
-#carouselApresentacao img {
-    width: 100%;
-    height: 619px;
-
-}
-
-/** RESUMO ELJHAY **/
-#aboutEljhay {
-    width: 80%;
-
-    padding-top: 20px;
-
-    font-family: 'Merriweather', serif;
-
-
-    text-align: center;
-    margin: 0% auto;
-}
-
-#aboutEljhay h2 {
-    color: #2CCCD3;
-    font-weight: bold;
-}
-
-/** LINK P/ LOJA **/ 
-#linkLoja {
-    width: 80%;
-    height: max-content;
-
-    margin: 60px auto 50px;
-
-}
-
-
-#linkLoja h4 {
-    text-align: center;
-}
-
-#linkLoja img {
-    width: max-content;
-    height: 240px;
-
-    position: relative;
-    left: 420px;
-}
-
-/** CONFIGURAÇÃO DE FLECHA PARA SUBIR AO TOPO **/ 
-#voltarTopo {
-  position: absolute;
-  right: 0;
-  top: -20px
-}
-
-#subir {
-    position: relative;
-
-}
-
-#flecha {
-    position: absolute;
-    top: -26px;
-    left: 13px;
-}
-
 
 /* CONFIGURAÇÃO DO FOOTER */
 footer {
@@ -162,6 +95,74 @@ footer p, footer p a {
     
 }
 
+/** CONFIGURAÇÃO DE FLECHA PARA SUBIR AO TOPO **/ 
+
+#voltarTopo {
+  position: absolute;
+  right: 0;
+  top: -20px
+}
+
+#subir {
+    position: relative;
+
+}
+
+#flecha {
+    position: absolute;
+    top: -26px;
+    left: 13px;
+}
+
+
+/*** CONFIGURAÇÕES DO MAIN  - HOME (INDEX.HTML) ***/
+
+/** Caroseul ***/
+#carouselApresentacao img {
+    width: 100%;
+    height: 619px;
+
+}
+
+/** RESUMO ELJHAY **/
+#aboutEljhay {
+    width: 80%;
+
+    padding-top: 20px;
+
+    font-family: 'Merriweather', serif;
+
+
+    text-align: center;
+    margin: 0% auto;
+}
+
+#aboutEljhay h2 {
+    color: #2CCCD3;
+    font-weight: bold;
+}
+
+/** LINK P/ LOJA **/ 
+#linkLoja {
+    width: 80%;
+    height: max-content;
+
+    margin: 60px auto 50px;
+
+}
+
+#linkLoja h4 {
+    text-align: center;
+}
+
+#linkLoja img {
+    width: max-content;
+    height: 240px;
+
+    position: relative;
+    left: 420px;
+}
+
 /***********************************/
 /**** CSS P/ INSTITUCIONAL.HTML ****/
 /***********************************/
@@ -190,7 +191,7 @@ footer p, footer p a {
 }
 
 /***********************************/
-/**** CSS P/ GALLERY.HTML ****/
+   /**** CSS P/ GALLERY.HTML ****/
 /***********************************/
 
 /** CONTÉUDO MAIN **/
@@ -235,6 +236,78 @@ main {
   border: 1px solid red;
   
 }
+
+/***********************************/
+   /**** CSS P/ CONTACTUS.HTML ****/
+/***********************************/
+#formContato {
+  width: 50%;
+  height: max-content;
+
+  padding-top: 20px;
+
+  text-align: center;
+
+}
+
+#formContato h1 {
+  color: #2CCCD3;
+
+  font-family: 'Merriweather Sans', serif;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+#formContato form {
+  width: 60%;
+
+  margin: 0 auto;
+
+  font-weight: bold;
+
+}
+
+#formContato label {
+  font-size: 20px;
+}
+
+#formContato input {
+  border: 2px solid black;
+  border-radius: 35px;
+
+  height: 55px;
+
+  text-align: center;
+
+}
+
+#formContato textarea {
+  border: 2px solid black;
+  border-radius: 35px;
+
+  height: 150px;
+}
+
+#formContato button {
+  border-radius: 60px;
+  border: 2px solid #2CCCD3;
+
+  width: 350px;
+  height: 80px;
+
+  font-size: 34px;
+
+  color: black;
+  font-family: 'Merriweather Sans', serif;
+  font-weight: bold;
+  font-style: italic;
+
+
+  margin-bottom: 20px;
+}
+
+
 
 
 
