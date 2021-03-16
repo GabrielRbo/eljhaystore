@@ -86,6 +86,7 @@ footer p, footer p a {
 #iconeRedes ul li {
     display: inline;
 
+<<<<<<< HEAD
     padding: 12px;
 
 }
@@ -94,6 +95,11 @@ footer p, footer p a {
     width: 32px;
     
 }
+=======
+    position: relative;
+    left: 438px !important;
+}   
+>>>>>>> 9b109d3e3b5eba862cd20bfa6cb22b795a981a78
 
 /** CONFIGURAÇÃO DE FLECHA PARA SUBIR AO TOPO **/ 
 
@@ -237,6 +243,7 @@ main {
   
 }
 
+<<<<<<< HEAD
 /***********************************/
    /**** CSS P/ CONTACTUS.HTML ****/
 /***********************************/
@@ -311,6 +318,8 @@ main {
 
 
 
+=======
+>>>>>>> 9b109d3e3b5eba862cd20bfa6cb22b795a981a78
 @media only screen and (max-width: 1600px) {
     #voltarTopo {
     position: absolute;
