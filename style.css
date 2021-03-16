@@ -75,6 +75,48 @@ header ul li {
     font-weight: bold;
 }
 
+/** LINK P/ LOJA **/ 
+#linkLoja {
+    width: 80%;
+    height: max-content;
+
+    margin: 60px auto 50px;
+
+}
+
+
+#linkLoja h4 {
+    text-align: center;
+}
+
+#linkLoja img {
+    width: max-content;
+    height: 240px;
+
+    position: relative;
+    left: 420px;
+}
+
+/** CONFIGURAÇÃO DE FLECHA PARA SUBIR AO TOPO **/ 
+#voltarTopo {
+    position: absolute;
+    right: 0;
+    bottom: -700px;
+    z-index: 1;   
+
+}
+
+#subir {
+    position: relative;
+
+}
+
+#flecha {
+    position: absolute;
+    top: -26px;
+    left: 13px;
+}
+
 
 /* CONFIGURAÇÃO DO FOOTER */
 footer {
@@ -83,16 +125,41 @@ footer {
     position:absolute;
     background-color: #090909;
 
-    padding-top: 20px;
+    padding-top: 10px;
 
+}
+
+footer ul li {
+    padding: 4px;
 }
 
 footer p, footer p a {
     color: #2CCCD3;
     font-size: 12px;
     text-align: center;
+
+
 }
 
+#iconeRedes {
+    display: inline;
+    position: absolute;
 
+    right: 35px;
+    bottom: 70px;
+    
+}
+
+#iconeRedes ul li {
+    display: inline;
+
+    padding: 12px;
+
+}
+
+#iconeRedes ul li img {
+    width: 32px;
+    
+}
 
 
